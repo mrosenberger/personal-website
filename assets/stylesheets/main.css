@@ -1,0 +1,59 @@
+.personal-descriptions {
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+  width: 500px;
+  background: white;
+  padding:10px;
+  opacity: 0.4;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.personal-description {
+	color:gray;
+  margin:20px;
+  display: inline-block;
+}
+
+.michael-rosenberger {
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+  color:gray;
+  font-weight:bold;
+}
+
+.menu {
+  background: gray;
+  opacity: 0.9;
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  padding:20px;
+}
+
+.menu ul {
+
+}
+
+.menu ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+}
+
+html { 
+  background: url(/assets/images/seattle-nighttime-1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
