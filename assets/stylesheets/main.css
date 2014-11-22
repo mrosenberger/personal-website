@@ -39,7 +39,7 @@ body {
   width:100%;
   text-align: center;
   position: absolute;
-  top: 3%;
+  top: 2%;
   color:white;
   font-weight:bold;
   text-shadow: 0px 0px 10px black;
@@ -52,22 +52,26 @@ body {
 }
 
 .top-stripe {
-  text-align:center;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
   position: absolute;
   top: 9%;
-  left: 0%;
-  width: 100%;
-  text-align: center;
+  height: 10%;
   background: black;
-  padding:10px;
   opacity: 0.8;
+
+  width: 100%;
+}
+
+.table-row {
+  margin-top: 20px;
 }
 
 .personal-description {
 	color:white;
-  margin:20px;
   text-shadow: 0px 0px 5px black;
-  display: inline-block;
   font-family: 'Raleway', Helvetica, sans-serif;
   font-weight: bold;
   cursor: default;
@@ -93,16 +97,15 @@ body {
   position: absolute;
   left: 5%;
   top: 50%;
-  padding-top:20px;
-  padding-bottom:20px;
-  padding-right: 15px;
+  width: 10%;
+  padding: 8px;
   text-align: right;
 }
 
 .menu ul {}
 .menu ul li {
   list-style-type: none;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 .menu ul li a {
   text-decoration: none;
@@ -115,37 +118,37 @@ body {
   text-shadow: 0px 0px 1px white;
 }
 
-footer {
-  margin: 0 auto;
-  width: 200px;
-  text-align: center;
-  position: absolute;
-  top: 97%;
-  height:100%;
-
+.content {
   background: black;
-  opacity: 0.9;
-  
-  font-size: 70%;
-  color:white;
-  font-weight: bold;
-  text-shadow: 0px 0px 2px black;
-  text-align: center; 
-  padding: 3px;
-}
-
-.footer, .push {
-  height: 2em;
+  opacity: 0.8;
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 60%;
+  height: 60%;
+  color: white;
+  padding: 10px;
 }
 
 .footer {
+
+  height: 2em;
+
+  margin-left: auto;
+  margin-right: auto;
+
   background: black;
-  opacity: 0.9;
+  opacity: 0.8;
   
   font-size: 70%;
   color:white;
   font-weight: bold;
   text-align: center; 
+
+  width: 200px;
+  padding-top: 4px;
+
+  text-shadow: 0px 0px 5px black;
 
 }
 
