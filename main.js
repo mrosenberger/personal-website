@@ -19,6 +19,6 @@ var shuffleElementColors = function(elements) {
 	}
 };
 
-$(document).ready( function() {
+/*$(document).ready( function() {
 	shuffleElementColors($(".personal-description"));
-});
+});*/
